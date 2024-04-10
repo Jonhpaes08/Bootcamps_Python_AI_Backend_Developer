@@ -1,10 +1,12 @@
 name = 'Jonh'
 age = 19
 
-print (name, age)
+name, age = 'Jonh Alex', 19 #podemos definir todos na mesma linha
 
 limite_saque_diario = 100
 
-BRAZIL_STATES = ("SP", "ES", "PE", "RJ")
+print (f'{name}, {age}, Possui um límite diário de {limite_saque_diario}')
 
-print(BRAZIL_STATES)
+BRAZIL_STATES = ("SP", "ES", "PE", "RJ") #sempre bom usar palavras MAIUSCULAS p/ países ou relacionado
+
+print(BRAZIL_STATES) #retornamos os países que estão na variável
