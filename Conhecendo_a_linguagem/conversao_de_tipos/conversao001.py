@@ -10,7 +10,7 @@ print(float(100)) #também podemos converter um número 'int' em 'float' = (100.
 
 print(str(10.10)) #aqui convertemos em 'string' = (10.1) p/ ver que realmete houve uma conversão no código, usamos o 'type' onde vai informar qual é o tipo ' print(type(str(10.10))) '
 #forma simplificada.
-valor = 10
+valor = 10 
 valor_str = str(valor)
 print (type(valor))
 print (type(valor_str))
